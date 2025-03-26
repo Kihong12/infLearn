@@ -14,6 +14,7 @@ public class DiscountService {
         } else {
             System.out.println("할인X");
         }
+
         return price * discountPercent / 100;
     }
 }
